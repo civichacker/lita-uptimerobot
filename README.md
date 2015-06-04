@@ -20,7 +20,7 @@ gem "lita-uptimerobot"
 
 ``` ruby
 Lita.configure do |config|
-    config.handlers.salt.api_key= ENV["UPTIME_API_KEY"]
+    config.handlers.uptimerobot.api_key= ENV["UPTIME_API_KEY"]
 end
 ```
 
