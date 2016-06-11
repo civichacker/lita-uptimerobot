@@ -43,10 +43,11 @@ module Lita
           max_url_width = monitor['url'].length if monitor['url'].length > max_url_width
           r << "#{monitor['alltimeuptimeratio'].center(max_ratio_width)}\t"
           r << "#{self.class.status(monitor['status']).center(max_status_width)}\t"
+          r << "#{monitor['friendlyname']}\t"
           r << "#{monitor['url']}\n"
         end
         header = ''
-        header << "Uptime %\t" << "Status".center(max_status_width) << "\t" << "URL".center(max_url_width) << "\n"
+        header << "Uptime %\t" << "Status".center(max_status_width) << "\tName\t" << "URL".center(max_url_width) << "\n"
         msg.reply header << r
       end
     end
