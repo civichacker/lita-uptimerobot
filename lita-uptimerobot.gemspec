@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-uptimerobot"
-  spec.version       = "0.1.0-beta"
+  spec.version       = "0.1.1"
   spec.authors       = ["Jurnell Cockhren"]
-  spec.email         = ["jurnell@sophicware.com"]
+  spec.email         = ["opensource@civichacker.com"]
   spec.description   = %q{Lita Handler for interacting with uptimerobot.com}
   spec.summary       = spec.description
-  spec.homepage      = "https://github.com/sophicware/lita-uptimerobot"
+  spec.homepage      = "https://github.com/civichacker/lita-uptimerobot"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
